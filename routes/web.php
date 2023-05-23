@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Livewire\Index;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 //     return view('layouts.app');
 // });
 
-Route::get('/',Index::class);
+Route::get('/', [HomeController::class, 'index']);
