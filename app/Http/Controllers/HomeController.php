@@ -15,4 +15,19 @@ class HomeController extends Controller
     {
         return view('user.about');
     }
+
+    public function contact()
+    {
+        return view('user.contact');
+    }
+
+    public function portfolio()
+    {
+        return view('user.portfolio');
+    }
+
+    public function newsAndImpact()
+    {
+        return view('user.news');
+    }
 }
