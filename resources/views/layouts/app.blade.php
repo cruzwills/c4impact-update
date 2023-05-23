@@ -41,7 +41,7 @@
             <div class="header-upper clearfix">
                 <div class="outer-box ">
                     <div class="logo-box pull-left">
-                        <figure class="logo"><a href="index-2.html"><img src="{{asset('assets/images/logo.png')}}" alt=""></a></figure>
+                        <figure class="logo"><a href="index-2.html"><img src="{{asset('assets/images/LOGO.png')}}" alt=""></a></figure>
                     </div>
                     <div class="menu-area pull-right">
                         <!--Mobile Navigation Toggler-->
@@ -151,7 +151,7 @@
         <!--sticky Header-->
         <div class="sticky-header">
             <div class="container clearfix">
-                <figure class="logo-box"><a href="index-2.html"><img src="{{asset('assets/images/small-logo.png')}}" alt=""></a></figure>
+                <figure class="logo-box"><a href="index-2.html"><img src="{{asset('assets/images/LOGO.jpg')}}" alt=""></a></figure>
                 <div class="menu-area">
                     <nav class="main-menu clearfix">
                         <!--Keep This Empty / Menu will come through Javascript-->
