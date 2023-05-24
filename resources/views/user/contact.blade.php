@@ -2,6 +2,21 @@
 
 @section('content')
 
+    <!--Page Title-->
+    <section class="page-title bg-color-1 text-center">
+        <div class="pattern-layer" style="background-image: url(assets/images/shape/pattern-18.png);"></div>
+        <div class="auto-container">
+            <div class="content-box">
+                <h1>Contact Us</h1>
+                <ul class="bread-crumb clearfix">
+                    <li><a href="index-2.html">Home</a></li>
+                    <li>Contact Us</li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--End Page Title-->
+
     <!-- contact-section -->
     <section class="contact-section mt-5 pt-5 mb-0 pb-0">
         <div class="auto-container">

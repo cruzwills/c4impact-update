@@ -21,11 +21,11 @@
                                     </li>
                                     <li class="dropdown"><a href="{{ route('portfolio')}}">Portfolio</a>
                                         <ul>
-                                            <li><a href="service.html">Data Analysis</a></li>
-                                            <li><a href="service-2.html">Grant Writing</a></li>
-                                            <li><a href="service-2.html">Impact Assessment</a></li>
-                                            <li><a href="service-2.html">Survey Design</a></li>
-                                            <li><a href="service-2.html">Third Party M & E</a></li>
+                                            <li><a href="">Data Analysis</a></li>
+                                            <li><a href="">Grant Writing</a></li>
+                                            <li><a href="">Impact Assessment</a></li>
+                                            <li><a href="">Survey Design</a></li>
+                                            <li><a href="">Third Party M & E</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="{{ route('news')}}">News and Impact</a>

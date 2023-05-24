@@ -14,7 +14,7 @@
                             <h1>Data Analytics with CFIERD.</h1>
                             <p>Center for Impact Evaluation Association and Research Design (CFIERD) is engaged in social research designs, monitoring and evaluation, impact evaluations and environmental assessments, mobile data collection tools and data analysis service.</p>
                             <div class="btn-box">
-                                <a href="about-us.html" class="theme-btn style-one">Learn More</a>
+                                <a href="{{ route('about')}}" class="theme-btn style-one">Learn More</a>
                             </div>
                         </div>
                     </div>
