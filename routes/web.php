@@ -14,8 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('layouts.app');
-// });
+Route::get('/', [HomeController::class, 'index'])->name('index');
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/about', [HomeController::class, 'about'])->name('about');
+
+Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+
+Route::get('/portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
+
+Route::get('/news', [HomeController::class, 'newsAndImpact'])->name('news');

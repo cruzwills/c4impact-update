@@ -16,10 +16,10 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="current"><a href="index-2.html">Home</a>
+                                    <li class="current"><a href="{{ route('index')}}">Home</a>
 
                                     </li>
-                                    <li class="dropdown"><a href="index-2.html">Portfolio</a>
+                                    <li class="dropdown"><a href="{{ route('portfolio')}}">Portfolio</a>
                                         <ul>
                                             <li><a href="service.html">Data Analysis</a></li>
                                             <li><a href="service-2.html">Grant Writing</a></li>
@@ -28,16 +28,17 @@
                                             <li><a href="service-2.html">Third Party M & E</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index-2.html">News and Impact</a>
+                                    <li class="dropdown"><a href="{{ route('news')}}">News and Impact</a>
                                         <ul>
                                             <li><a href="about.html">Element</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index-2.html">About Us</a>
+                                    <li class="dropdown"><a href="{{ route('about')}}">About Us</a>
                                         <ul>
-                                            <li><a href="service-element.html">Our History</a></li>
-                                            <li><a href="faq-element.html">Our Pillars</a></li>
-                                            <li><a href="choose-element.html">Our Team</a></li>
+                                            <li><a href="#c-vision">Our Vision and Mission</a></li>
+                                            <li><a href="#c-history">Our History</a></li>
+                                            <li><a href="#c-pillars">Our Pillars</a></li>
+                                            <li><a href="#c-team">Our Team</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"><a href="index-2.html">Opportunities</a>
@@ -48,7 +49,7 @@
                                             <li><a href="blog-details.html">Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="{{ route('contact')}}">Contact Us</a></li>
                                 </ul>
                             </div>
                         </nav>

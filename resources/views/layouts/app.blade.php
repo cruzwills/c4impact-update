@@ -30,6 +30,10 @@
 </head>
 
 <body>
+    
+    <!-- preloader -->
+    <div class="preloader"></div>
+    <!-- preloader -->
 
     @include('partials.header')
 
