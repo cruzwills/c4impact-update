@@ -22,4 +22,8 @@ Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 
 Route::get('/portfolio', [HomeController::class, 'portfolio'])->name('portfolio');
 
-Route::get('/news', [HomeController::class, 'newsAndImpact'])->name('news');
+Route::get('/resources', [HomeController::class, 'resources'])->name('resources');
+
+Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
+
+Route::get('/blog-detail', [HomeController::class, 'blogDetail'])->name('blog-detail');

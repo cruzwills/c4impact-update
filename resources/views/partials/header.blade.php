@@ -16,40 +16,34 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation clearfix">
-                                    <li class="current"><a href="{{ route('index')}}">Home</a>
-
-                                    </li>
-                                    <li class="dropdown"><a href="{{ route('portfolio')}}">Portfolio</a>
+                                    <li class="{{ Route::currentRouteName() == 'index' ? 'current' : '' }}"><a href="{{ route('index')}}">Home</a></li>
+                                    <li class="{{ Route::currentRouteName() == 'about' ? 'current' : '' }} dropdown"><a href="{{ route('about')}}">About Us</a>
                                         <ul>
-                                            <li><a href="">Data Analysis</a></li>
-                                            <li><a href="">Grant Writing</a></li>
-                                            <li><a href="">Impact Assessment</a></li>
-                                            <li><a href="">Survey Design</a></li>
-                                            <li><a href="">Third Party M & E</a></li>
+                                            <li><a href="{{ route('about')}}#c-vision">Our Vision and Mission</a></li>
+                                            <li><a href="{{ route('about')}}#c-history">Our History</a></li>
+                                            <li><a href="{{ route('about')}}#c-pillars">Our Pillars</a></li>
+                                            <li><a href="{{ route('about')}}#c-team">Our Team</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="{{ route('news')}}">News and Impact</a>
+                                    <li class="{{ Route::currentRouteName() == 'portfolio' ? 'current' : '' }} dropdown"><a href="{{ route('portfolio')}}">Services</a>
                                         <ul>
-                                            <li><a href="about.html">Element</a></li>
+                                            <li><a href="{{ route('portfolio')}}#data-analytics-1">Data Analytics</a></li>
+                                            <li><a href="{{ route('portfolio')}}#proposal-writing-1">Proposal Writing</a></li>
+                                            <li><a href="{{ route('portfolio')}}#third-party-1">Third Party M & E</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="{{ route('about')}}">About Us</a>
+                                    <li class="{{ Route::currentRouteName() == 'resources' ? 'current' : '' }} dropdown"><a href="{{ route('resources')}}">Resources</a>
                                         <ul>
-                                            <li><a href="#c-vision">Our Vision and Mission</a></li>
-                                            <li><a href="#c-history">Our History</a></li>
-                                            <li><a href="#c-pillars">Our Pillars</a></li>
-                                            <li><a href="#c-team">Our Team</a></li>
+                                            <li><a href="{{ route('resources')}}#projects">Projects</a></li>
+                                            <li><a href="">Partnership</a></li>
                                         </ul>
                                     </li>
-                                    <li class="dropdown"><a href="index-2.html">Opportunities</a>
+                                    <li class="{{ Route::currentRouteName() == 'blog' ? 'current' : '' }} dropdown"><a href="{{ route('blog')}}">Blog</a>
                                         <ul>
-                                            <li><a href="blog-grid.html">Blog Grid</a></li>
-                                            <li><a href="blog-masonry.html">Blog Masonry</a></li>
-                                            <li><a href="blog-standard.html">Blog Standard</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="{{ route('blog') }}#news">News & Impact</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="{{ route('contact')}}">Contact Us</a></li>
+                                    <li class="{{ Route::currentRouteName() == 'contact' ? 'current' : '' }}"><a href="{{ route('contact')}}">Contact Us</a></li>
                                 </ul>
                             </div>
                         </nav>

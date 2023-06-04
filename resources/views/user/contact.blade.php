@@ -7,7 +7,7 @@
         <div class="pattern-layer" style="background-image: url(assets/images/shape/pattern-18.png);"></div>
         <div class="auto-container">
             <div class="content-box">
-                <h1>Contact Us</h1>
+                <h1>Get in Touch</h1>
                 <ul class="bread-crumb clearfix">
                     <li><a href="index-2.html">Home</a></li>
                     <li>Contact Us</li></li>
@@ -28,19 +28,29 @@
                             <p>Daily: 9.30 AM–6.00 PM</p>
                             <p>Sunday & Holidays: Closed</p>
                         </div>
+                        <br>
                         <div class="contact-info">
                             <h3>Contact Info</h3>
                             <ul class="clearfix">
-                                <li>Address: 15 Ridge Road, Avondale, Harare</li>
+                                <li>Physical Address: 15 Ridge Road, Avondale, Harare</li>
                                 <li>Phone: +263 779 970 322 | +263 779777244 | +263 71 900 3123</li>
                                 <li><a href="mailto:info@c4impacteval.org">Email: info@c4impacteval.org</a></li>
+                            </ul>
+                        </div>
+                        <br>
+                        <div class="social-box">
+                            <h3>Social Contact</h3>
+                            <ul class="clearfix">
+                                <li><a href="contact.html"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="contact.html"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="contact.html"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-12 col-sm-12 form-column">
                     <div class="form-inner">
-                        <h3>Let’s Conversation<br />with Detox</h3>
+                        <h3>Leave us a Message</h3>
                         <form method="post" action="http://azim.commonsupport.com/Detox/assets/inc/sendemail.php" id="contact-form" class="default-form">
                             <div class="row clearfix">
                                 <div class="col-lg-6 col-md-6 col-sm-12 form-group">

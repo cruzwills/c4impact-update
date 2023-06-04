@@ -1,6 +1,57 @@
 @extends('layouts.app')
 
 @section('content')
+
+    <!--Page Title-->
+    <section class="page-title bg-color-1 text-center">
+        <div class="pattern-layer" style="background-image: url(assets/images/shape/pattern-18.png);"></div>
+        <div class="auto-container">
+            <div class="content-box">
+                <h1>About Us</h1>
+                <ul class="bread-crumb clearfix">
+                    <li><a href="index-2.html">Home</a></li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--End Page Title-->
+
+        <!-- about-section -->
+        <section class="about-section sec-pad">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-6 col-md-6 col-sm-12 image-column">
+                        <div id="image_block_01">
+                            <div class="image-box wow slideInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <figure class="image js-tilt"><img src="{{ asset('assets/images/statistics/Statistics.jpg')}}" alt=""></figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 content-column">
+                        <div id="content_block_01">
+                            <div class="content-box">
+                                <div class="sec-title wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                    <p>Who We Are</p>
+                                    <h3>Center for Impact Evaluation Association and Research Design</h3>
+                                </div>
+                                <div class="text wow slideInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                    <p>Dolor sit amet consectetur elit sed eiusmod tempor incidi dunt labore  dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat.duis aute irure dolor in reprehenderit.</p>
+                                </div>
+                                <ul class="list-item clearfix wow slideInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                    <li>Various Analysis Options</li>
+                                    <li>Page Load Details (time, size, number of requests)</li>
+                                    <li>Waterfall, Video and Report History</li>
+                                </ul>
+                                <div class="btn-box wow slideInUp" data-wow-delay="900ms" data-wow-duration="1500ms"><a href="{{ route('contact') }}" class="theme-btn style-one">Contact Us</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-section end -->
+
     <!-- feature-style-two -->
     <section class="feature-style-two mt-5 pt-5" id="c-vision">
         <div class="auto-container">
@@ -31,14 +82,14 @@
     </section>
     <!-- feature-style-two end -->
     <!-- about-section -->
-    <section class="about-section" id="c-history">
+    <section class="about-section pb-0" id="c-history">
         <div class="auto-container">
             <div class="row clearfix">
                 <div class="col-lg-12 col-md-12 col-sm-12 content-column">
                     <div id="content_block_01">
                         <div class="content-box">
                             <div class="sec-title wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <p>Our History</p>
+                                <p class="text-center">Our History</p>
                             </div>
                             <div class="text wow slideInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <p>The Center for Impact Evaluation Association and Research Design (CFIERD) was founded in
@@ -57,93 +108,122 @@
     </section>
     <!-- about-section end -->
 
-    <!-- testimonial-style-two -->
-    <section class="testimonial-style-two text-center" id="c-team">
-        <div class="pattern-layer" style="background-image: url(assets/images/shape/pattern-17.png);"></div>
-        <div class="thumb-box wow zoomIn animated">
-            <figure class="thumb thumb-1"><img src="assets/images/resource/thumb-1.png" alt=""></figure>
-            <figure class="thumb thumb-2"><img src="assets/images/resource/thumb-2.png" alt=""></figure>
-            <figure class="thumb thumb-3"><img src="assets/images/resource/thumb-3.png" alt=""></figure>
-            <figure class="thumb thumb-4"><img src="assets/images/resource/thumb-4.png" alt=""></figure>
-        </div>
+    <!-- team-section -->
+    <section class="team-section text-center sec-pad">
         <div class="auto-container">
-            <div class="upper-box">
-                <div class="sec-title">
-                    <p>Our Team</p>
-                    <h2>Expert Team of Creators</h2>
-                </div>
+            <div class="sec-title">
+                <p>Our Team</p>
+                <h2>Management Team</h2>
             </div>
-            <div class="row clearfix">
-                <div class="col-lg-10 col-md-12 col-sm-12 offset-lg-1 inner-column">
-                    <div class="testimonial-carousel-2 owl-carousel owl-theme owl-nav-none">
-                        <div class="testimonial-content">
+            <div class="inner-content">
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/resource/thumb-1.png" alt="">
+                                <figure class="image-box">
+                                    <img src="{{ asset('assets/images/team/team-1.jpg')}}" alt="" height="420" width="360">
+                                    <ul class="social-links">
+                                        <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
                                 </figure>
-                                <p>Dr Muyengwa has more than 10 years of relevant experience with rigorous quantitative
-                                    research design and analysis/evaluation, and survey design, as well as a breadth of
-                                    experience in Zimbabwe’s agriculture, food security, youth employment and empowerment
-                                    and livelihoods sectors. </p>
-                                <div class="author-info">
-                                    <h4>Dr. Shylock Muyengwa</h4>
-                                    <span class="designation">Director and Managing Consultant</span>
+                                <div class="lower-content">
+                                    <h3><a href="about.html">Nicolas Lawson</a></h3>
+                                    <span class="designation">Founder & CEO</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="testimonial-content">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/resource/thumb-2.png" alt="">
+                                <figure class="image-box">
+                                    <img src="assets/images/team/team-2.jpg" alt="">
+                                    <ul class="social-links">
+                                        <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
                                 </figure>
-                                <p>Ennie Flora Gatsi is a holder of a Bachelor of Science Special Honours Degree in
-                                    Monitoring and Evaluation, a Post Graduate Degree in Project Management, a Bachelor of
-                                    science degree in Family and Consumer Sciences and a Certificate in Monitoring and
-                                    Evaluation</p>
-                                <div class="author-info">
-                                    <h4>Ennie Flora Gatsi</h4>
-                                    <span class="designation">Chief Operations Officer</span>
+                                <div class="lower-content">
+                                    <h3><a href="about.html">Gwen Johnson</a></h3>
+                                    <span class="designation">Designer</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="testimonial-content">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/resource/thumb-3.png" alt="">
+                                <figure class="image-box">
+                                    <img src="assets/images/team/team-3.jpg" alt="">
+                                    <ul class="social-links">
+                                        <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
                                 </figure>
-                                <p>A Competent Geographical Information Systems Specialist with more than 5 years of
-                                    experience working in humanitarian aid with FAO and UNDP, government of Zimbabwe, City
-                                    Councils and NGOs which include OXFAM, World Vision, Vision Ri, WWF and Sight savers.
-                                </p>
-                                <div class="author-info">
-                                    <h4>Bornwell Makava</h4>
-                                    <span class="designation">GIS Specialist</span>
+                                <div class="lower-content">
+                                    <h3><a href="about.html">Thomas Olsen</a></h3>
+                                    <span class="designation">Regional Leader</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="testimonial-content">
+                    </div>
+                </div>
+
+                <div class="row clearfix pt-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/resource/thumb-4.png" alt="">
+                                <figure class="image-box">
+                                    <img src="assets/images/team/team-1.jpg" alt="">
+                                    <ul class="social-links">
+                                        <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
                                 </figure>
-                                <p>Holder of a Master of Science in Population Studies (University of Groningen,
-                                    Netherlands) and Bachelor of Science in Psychology (University of Zimbabwe). I have
-                                    previous working experience in Higher Education (University of Zimbabwe), Diplomacy (Min
-                                    of Foreign Affairs), Population (Zimbabwe Census Office) and Media (C Media Africa).</p>
-                                <div class="author-info">
-                                    <h4>Roy Matangira</h4>
-                                    <span class="designation">Research Associate</span>
+                                <div class="lower-content">
+                                    <h3><a href="about.html">Nicolas Lawson</a></h3>
+                                    <span class="designation">Founder & CEO</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="testimonial-content">
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><img src="assets/images/resource/thumb-4.png" alt="">
+                                <figure class="image-box">
+                                    <img src="assets/images/team/team-2.jpg" alt="">
+                                    <ul class="social-links">
+                                        <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
                                 </figure>
-                                <p>Moses holds an Honour’s degree in Business Studies and Computing Science (HBSCTC) from
-                                    the University of Zimbabwe. Joined the company as a research assistant in 2018, he
-                                    boasts more than 3 years’ experience in survey design, enumeration and data analysis
-                                    across various sectors which including health, environment, climate change and
-                                    livelihoods sectors.</p>
-                                <div class="author-info">
-                                    <h4>Moses Vera</h4>
-                                    <span class="designation">Chief Analytics Officer</span>
+                                <div class="lower-content">
+                                    <h3><a href="about.html">Gwen Johnson</a></h3>
+                                    <span class="designation">Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                        <div class="team-block-one wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div class="inner-box">
+                                <figure class="image-box">
+                                    <img src="assets/images/team/team-3.jpg" alt="">
+                                    <ul class="social-links">
+                                        <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="about.html"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </figure>
+                                <div class="lower-content">
+                                    <h3><a href="about.html">Thomas Olsen</a></h3>
+                                    <span class="designation">Regional Leader</span>
                                 </div>
                             </div>
                         </div>
@@ -152,5 +232,5 @@
             </div>
         </div>
     </section>
-    <!-- testimonial-style-two end -->
+    <!-- team-section end -->
 @endsection

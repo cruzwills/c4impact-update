@@ -26,8 +26,18 @@ class HomeController extends Controller
         return view('user.portfolio');
     }
 
-    public function newsAndImpact()
+    public function resources()
     {
-        return view('user.news');
+        return view('user.resources');
+    }
+
+    public function blog()
+    {
+        return view('user.blog.blog');
+    }
+
+    public function blogDetail()
+    {
+        return view('user.blog.blog-detail');
     }
 }

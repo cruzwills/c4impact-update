@@ -8,7 +8,7 @@
                             <div class="footer-widget logo-widget">
                                 <figure class="footer-logo"><a href="index-2.html"><img src="assets/images/LOGO.jpg" alt=""></a></figure>
                                 <div class="text">
-                                    <p>Lorem ipsum dolor amet consectetur adipielit sed eiusm tempor incididunt ut labore dolore.</p>
+                                    <p>The Center for Impact Evaluation Association and Research Design.</p>
                                 </div>
                             </div>
                         </div>
@@ -19,11 +19,10 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul>
-                                        <li><a href="index-2.html">Company History</a></li>
-                                        <li><a href="index-2.html">About Us</a></li>
-                                        <li><a href="index-2.html">Contact Us</a></li>
-                                        <li><a href="index-2.html">Services</a></li>
-                                        <li><a href="index-2.html">Privacy Policy</a></li>
+                                        <li><a href="{{ route('resources')}}">Resources</a></li>
+                                        <li><a href="{{ route('about')}}">About Us</a></li>
+                                        <li><a href="{{ route('contact')}}">Contact Us</a></li>
+                                        <li><a href="{{ route('portfolio')}}">Services</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -35,11 +34,10 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul>
-                                        <li><a href="index-2.html">Data Analysis</a></li>
-                                        <li><a href="index-2.html">Grant Writing</a></li>
-                                        <li><a href="index-2.html">Impact Assessment</a></li>
-                                        <li><a href="index-2.html">Survey Design</a></li>
-                                        <li><a href="index-2.html">Third Party M&E</a></li>
+                                        <li><a href="{{ route('portfolio')}}#data-analytics-1">Data Analytics</a></li>
+                                        <li><a href="{{ route('portfolio')}}#proposal-writing-1">Proposal Writing</a></li>
+                                        <li><a href="">Impact Assessment</a></li>
+                                        <li><a href="{{ route('portfolio')}}#third-party-1">Third Party M&E</a></li>
                                     </ul>
                                 </div>
                             </div>
