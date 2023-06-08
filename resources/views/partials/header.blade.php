@@ -35,7 +35,7 @@
                                     <li class="{{ Route::currentRouteName() == 'resources' ? 'current' : '' }} dropdown"><a href="{{ route('resources')}}">Resources</a>
                                         <ul>
                                             <li><a href="{{ route('resources')}}#projects">Projects</a></li>
-                                            <li><a href="">Partnership</a></li>
+                                            <li><a href="{{ route('resources')}}#partnership">Partnership</a></li>
                                         </ul>
                                     </li>
                                     <li class="{{ Route::currentRouteName() == 'blog' ? 'current' : '' }} dropdown"><a href="{{ route('blog')}}">Blog</a>

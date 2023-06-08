@@ -111,7 +111,7 @@
     <!-- project-section end -->
 
         <!-- process-style-two -->
-        <section class="process-style-two text-center bg-color-1">
+        <section id="partnership" class="process-style-two text-center bg-color-1">
             <div class="auto-container">
                 <div class="sec-title">
                     <p>Partnership</p>
