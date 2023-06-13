@@ -30,14 +30,13 @@
                         <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
                             <div class="footer-widget links-widget">
                                 <div class="widget-title">
-                                    <h3>Services</h3>
+                                    <h3>Follow Us</h3>
                                 </div>
                                 <div class="widget-content">
-                                    <ul>
-                                        <li><a href="{{ route('portfolio')}}#data-analytics-1">Data Analytics</a></li>
-                                        <li><a href="{{ route('portfolio')}}#proposal-writing-1">Proposal Writing</a></li>
-                                        <li><a href="">Impact Assessment</a></li>
-                                        <li><a href="{{ route('portfolio')}}#third-party-1">Third Party M&E</a></li>
+                                    <ul class="social-links">
+                                        <li><a href="index-2.html"><i class="fab fa-facebook-f pr-2"></i> Facebook</a></li>
+                                        <li><a href="index-2.html"><i class="fab fa-twitter pr-2"></i> Twitter</a> </li>
+                                        <li><a href="index-2.html"><i class="fab fa-linkedin-in pr-2"></i> LinkedIn</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -54,11 +53,6 @@
                                         <li><a href="mailto:info@c4impacteval.org">Email: info@c4impacteval.org</a></li>
                                     </ul>
                                 </div>
-                                <ul class="social-links clearfix">
-                                    <li><a href="index-2.html"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="index-2.html"><i class="fab fa-linkedin-in"></i></a></li>
-                                </ul>
                             </div>
                         </div>
                     </div>

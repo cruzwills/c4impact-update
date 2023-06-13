@@ -1,31 +1,51 @@
 @extends('layouts.app')
 
+@section('template_linked_css')
+    <style>
+        .carousel-item img {
+  max-height: 75vh; /* or any height value you prefer */
+}
+    </style>
+@endsection
+
 @section('content')
         <!-- banner-section -->
-        <section class="banner-section">
-            <div class="pattern-box">
-                <div class="pattern-1 wow slideInDown" data-wow-delay="500ms" data-wow-duration="1500ms" style="background-image: url(assets/images/shape/pattern-1.png);"></div>
-                <div class="pattern-2" style="background-image: url(assets/images/shape/pattern-2.png);"></div>
-            </div>
-            <div class="auto-container">
-                <div class="row clearfix">
-                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
-                        <div class="content-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <h1>Data Analytics Techniques with CFIERD.</h1>
-                            <p>Center for Impact Evaluation Association and Research Design (CFIERD) is engaged in social research designs, monitoring and evaluation, impact evaluations and environmental assessments, mobile data collection tools and data analysis service.</p>
-                            <div class="btn-box">
-                                <a href="{{ route('about')}}" class="theme-btn style-one">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                        <div class="image-box wow slideInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <img src="{{ asset('assets/images/statistics/3156627.jpg')}}" alt="">
-                        </div>
-                    </div>
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100 h-50vh" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white">First slide label</h5>
+                    <p class="text-white">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <div class="btn-box wow slideInUp" data-wow-delay="600ms" data-wow-duration="1200ms"><a href="{{ route('about')}}" class="theme-btn style-one">Read More</a></div>
+                  </div>
                 </div>
+                <div class="carousel-item">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white">Second slide label</h5>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="btn-box wow slideInUp" data-wow-delay="600ms" data-wow-duration="1200ms"><a href="{{ route('about')}}" class="theme-btn style-one">Read More</a></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-white">Third slide label</h5>
+                    <p class="text-white mt-2 pt-2">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <div class="btn-box wow slideInUp" data-wow-delay="600ms" data-wow-duration="1200ms"><a href="{{ route('about')}}" class="theme-btn style-one">Read More</a></div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
-        </section>
+          </section>
         <!-- banner-section end -->
 
         <!-- about-section -->

@@ -27,10 +27,12 @@
     <link href="{{ asset('assets/css/style.css')}}" rel="stylesheet">
     <link href="{{ asset('assets/css/responsive.css')}}" rel="stylesheet">
 
+    @yield('template_linked_css')
+
 </head>
 
 <body>
-    
+
     <!-- preloader -->
     <div class="preloader"></div>
     <!-- preloader -->
