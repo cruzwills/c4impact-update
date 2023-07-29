@@ -133,5 +133,96 @@
             </div>
         </div>
     </section>
+
+    <section id="Monitoring-and-Evaluation" class="about-section pb-0">
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12 content-column">
+                    <div id="content_block_01">
+                        <div class="content-box">
+                            <div class="sec-title wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <h2>Monitoring and Evaluation (M&E)</h2>
+                            </div>
+                            <div class="text wow slideInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                <p>M&E has been one of the main services of CFIERD since
+                                    its inception in 2017. Over the years, the company has conducted various midterm and endline
+                                    evaluations of different projects, each with specific demands. As a result, the team is well versed
+                                    in different evaluation approaches, such as outcome harvesting (OH), propensity score matching
+                                    (PSM), and randomized control trials (RCTs). In 2020, the PSM approach was used to evaluate
+                                    the impact of the Command Agriculture Program in Zimbabwe on the World Bank. The company
+                                    is also experienced in designing research tools and executing participatory research
+                                    methodologies such as key informant interviews (KIIs) and focus group discussions (FGDs).</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Baselines" class="about-section pb-0">
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12 content-column">
+                    <div id="content_block_01">
+                        <div class="content-box">
+                            <div class="sec-title wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <h2>Baselines</h2>
+                            </div>
+                            <div class="text wow slideInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                <p>The company has vast experience in conducting baseline studies at both local and
+                                    regional levels. The company’s associates worked with international organizations such as the
+                                    Peace Parks Foundation (PPF) between 2017 and 2018 to conduct a livelihood assessment survey
+                                    in the Simalaha Conservancy in Zambia as part of the Livelihoods and Development Strategy of
+                                    the Greater Kafue Wildlife Area.
+                                </p>
+                                <br>
+                                <p>
+                                    Other experiences included the baseline assessment of the
+                                    proposed ZIMOZA and LOZAMAP TFCAs under the GEF 6 project conducted jointly with
+                                    colleagues in Zambia. We are currently supporting a longitudinal social survey to assess the impact of
+                                    elephant tracking in Mozambique as well as providing specialist services in the collection of event
+                                    monitoring data across five countries: Botswana, Malawi, Tanzania, Zambia, and Zimbabwe.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Policy-Analysis" class="about-section pb-0">
+        <div class="auto-container">
+            <div class="row clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12 content-column">
+                    <div id="content_block_01">
+                        <div class="content-box">
+                            <div class="sec-title wow slideInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                <h2>Policy Analysis</h2>
+                            </div>
+                            <div class="text wow slideInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                                <p>
+                                    We use advanced techniques to conduct policy analysis. Our work includes
+                                    support for the World Bank to assess the effectiveness of agricultural subsidies on smallholder
+                                    farmers in Zimbabwe. We have also supported reviews of regional policies, such as the CBNRM
+                                    policy in Zambia, and reviewed and developed a roadmap for implementing community-based
+                                    initiatives in South Africa. The company also conducts policy briefings aimed at influencing
+                                    policymakers, such as the investment case for Zimbabwean youth conducted by Dr. Muyengwa
+                                    for UNICEF and the Zimbabwe Youth Council in 2014 and 2015. The specific assignment entailed
+                                    a desk review to summarize the situation of the youth concerning livelihoods and empowerment
+                                    based on the National Youth Policy. We have also produced several policy briefs for the Africa
+                                    Capacity Building Forum (ACBF).
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- about-section end -->
 @endsection

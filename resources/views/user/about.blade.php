@@ -36,12 +36,16 @@
                                     <h3>Center for Impact Evaluation Association and Research Design</h3>
                                 </div>
                                 <div class="text wow slideInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                    <p>Dolor sit amet consectetur elit sed eiusmod tempor incidi dunt labore  dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo consequat.duis aute irure dolor in reprehenderit.</p>
+                                    <p>The company is supported by associate consultants engaged in
+                                        conducting specific consulting assignments. It has a well-established record of accomplishment as
+                                        an innovative and value-adding company that operates within the development sector. We have
+                                        registered to operate in Namibia and South Africa. In Kenya, our work is implemented through
+                                        our sister firm called Darian Consulting Services. Our services include:</p>
                                 </div>
                                 <ul class="list-item clearfix wow slideInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                                    <li>Various Analysis Options</li>
-                                    <li>Page Load Details (time, size, number of requests)</li>
-                                    <li>Waterfall, Video and Report History</li>
+                                    <li>Data Analytics</li>
+                                    <li>Monitoring and Evaluation (M&E) </li>
+                                    <li>Grant Writing</li>
                                 </ul>
                                 <div class="btn-box wow slideInUp" data-wow-delay="900ms" data-wow-duration="1500ms"><a href="{{ route('contact') }}" class="theme-btn style-one">Contact Us</a></div>
                             </div>
@@ -113,7 +117,7 @@
         <div class="auto-container">
             <div class="sec-title">
                 <p>Our Team</p>
-                <h2>Management Team</h2>
+                <h2>Meet The Team</h2>
             </div>
             <div class="inner-content">
                 <div class="row clearfix">
@@ -121,7 +125,7 @@
                         <div class="team-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <figure class="image-box">
-                                    <img src="{{ asset('assets/images/team/team-1.jpg')}}" alt="" height="420" width="360">
+                                    <img src="{{ asset('assets/images/team/Shylock.jpg')}}" alt="" height="420" width="360">
                                     <ul class="social-links">
                                         <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
@@ -129,17 +133,17 @@
                                     </ul>
                                 </figure>
                                 <div class="lower-content">
-                                    <h3><a href="about.html">Nicolas Lawson</a></h3>
-                                    <span class="designation">Founder & CEO</span>
+                                    <h3><a href="about.html">Dr. Shylock Muyengwa</a></h3>
+                                    <span class="designation">Director and Managing Consultant</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                    <div class="col-lg-4 col-md-6 col-sm-12 team-block" style="height: 200px; width:200px;">
                         <div class="team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <figure class="image-box">
-                                    <img src="assets/images/team/team-2.jpg" alt="">
+                                    <img src="{{asset('assets/images/team/Ennie.png')}}" alt="">
                                     <ul class="social-links">
                                         <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
@@ -147,8 +151,8 @@
                                     </ul>
                                 </figure>
                                 <div class="lower-content">
-                                    <h3><a href="about.html">Gwen Johnson</a></h3>
-                                    <span class="designation">Designer</span>
+                                    <h3><a href="about.html">Ennie Flora Gatsi</a></h3>
+                                    <span class="designation">Chief Operations Officer</span>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +161,7 @@
                         <div class="team-block-one wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <figure class="image-box">
-                                    <img src="assets/images/team/team-3.jpg" alt="">
+                                    <img src="{{asset('assets/images/team/Bornwell.jpg')}}" alt="">
                                     <ul class="social-links">
                                         <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
@@ -165,8 +169,8 @@
                                     </ul>
                                 </figure>
                                 <div class="lower-content">
-                                    <h3><a href="about.html">Thomas Olsen</a></h3>
-                                    <span class="designation">Regional Leader</span>
+                                    <h3><a href="about.html">Bornwell Makava</a></h3>
+                                    <span class="designation">GIS Specialist</span>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +182,7 @@
                         <div class="team-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <figure class="image-box">
-                                    <img src="assets/images/team/team-1.jpg" alt="">
+                                    <img src="{{asset('assets/images/team/Roy.jpg')}}" alt="">
                                     <ul class="social-links">
                                         <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
@@ -186,17 +190,17 @@
                                     </ul>
                                 </figure>
                                 <div class="lower-content">
-                                    <h3><a href="about.html">Nicolas Lawson</a></h3>
-                                    <span class="designation">Founder & CEO</span>
+                                    <h3><a href="about.html">Roy Matangira</a></h3>
+                                    <span class="designation">Research Associate</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 team-block">
+                    <div class="col-lg-4 col-md-6 col-sm-15 team-block">
                         <div class="team-block-one wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <figure class="image-box">
-                                    <img src="assets/images/team/team-2.jpg" alt="">
+                                    <img src="{{asset('assets/images/team/Moses.png')}}" alt="">
                                     <ul class="social-links">
                                         <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
@@ -204,8 +208,8 @@
                                     </ul>
                                 </figure>
                                 <div class="lower-content">
-                                    <h3><a href="about.html">Gwen Johnson</a></h3>
-                                    <span class="designation">Designer</span>
+                                    <h3><a href="about.html">Moses Vera</a></h3>
+                                    <span class="designation">Chief Analytics Officer</span>
                                 </div>
                             </div>
                         </div>
