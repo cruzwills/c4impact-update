@@ -28,8 +28,11 @@
                                     <li class="{{ Route::currentRouteName() == 'portfolio' ? 'current' : '' }} dropdown"><a href="{{ route('portfolio')}}">Services</a>
                                         <ul>
                                             <li><a href="{{ route('portfolio')}}#data-analytics-1">Data Analytics</a></li>
-                                            <li><a href="{{ route('portfolio')}}#proposal-writing-1">Proposal Writing</a></li>
+                                            <li><a href="{{ route('portfolio')}}#proposal-writing-1">Grant Writing</a></li>
+                                            <li><a href="{{ route('portfolio')}}#third-party-1">Baselines</a></li>
+                                            <li><a href="{{ route('portfolio')}}#third-party-1">Monitoring and Evaluation(M&E)</a></li>
                                             <li><a href="{{ route('portfolio')}}#third-party-1">Third Party M & E</a></li>
+                                            <li><a href="{{ route('portfolio')}}#third-party-1">Policy Analysis</a></li>
                                         </ul>
                                     </li>
                                     <li class="{{ Route::currentRouteName() == 'resources' ? 'current' : '' }} dropdown"><a href="{{ route('resources')}}">Resources</a>
