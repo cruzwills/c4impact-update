@@ -63,21 +63,20 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 inner-column">
                     <div class="inner-box wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <h3>Our Mission</h3>
-                        <p>Lorem ipsum dolor amet consectetur adipisicing sed eiusmod tempor incididunt ut labore magna
-                            aliqua enim minim veniam quis nostrud exercitation ullamco.</p>
-                        <ul class="list-item">
-                            <li>Various Analysis Options.</li>
-                            <li>Page Load Details.</li>
+                        <p>To translate research and evaluation practices in order to increase
+                            evidence based programming and decision-making</p>
+
+
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 inner-column">
+                <div class="col-lg-6 col-md-4 col-sm-9 inner-column">
                     <div class="inner-box wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <h3>Our Vision</h3>
                         <div class="text">
-                            <p>Lorem ipsum dolor amet consectetur adipisicing sed eiusmod tempor incididunt ut labore magna
-                                aliqua enim minim veniam quis nostrud exercitation ullamco.</p>
-                            <p>Reprehenderit in voluptate velit esse cillum dolore fugiat nulla pariatur sint.</p>
+                            <p>To become the leading company providing impact evaluation services in
+                                Southern Africa and rest of th e world.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -218,7 +217,7 @@
                         <div class="team-block-one wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
                             <div class="inner-box">
                                 <figure class="image-box">
-                                    <img src="assets/images/team/team-3.jpg" alt="">
+                                    <img src="{{asset('assets/images/team/Joyce.png')}}" alt="">
                                     <ul class="social-links">
                                         <li><a href="about.html"><i class="fab fa-facebook-f"></i></a></li>
                                         <li><a href="about.html"><i class="fab fa-twitter"></i></a></li>
@@ -226,8 +225,8 @@
                                     </ul>
                                 </figure>
                                 <div class="lower-content">
-                                    <h3><a href="about.html">Thomas Olsen</a></h3>
-                                    <span class="designation">Regional Leader</span>
+                                    <h3><a href="about.html">Joyce Muyengwa </a></h3>
+                                    <span class="designation"> Chief Executive Officer</span>
                                 </div>
                             </div>
                         </div>
